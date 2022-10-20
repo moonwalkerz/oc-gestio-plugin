@@ -1,0 +1,10 @@
+name: Comuni
+form: $/moonwalkerz/gestio/models/comune/fields.yaml
+modelClass: MoonWalkerz\Gestio\Models\Comune
+defaultRedirect: moonwalkerz/gestio/comuni
+create:
+    redirect: 'moonwalkerz/gestio/comuni/update/:id'
+    redirectClose: moonwalkerz/gestio/comuni
+update:
+    redirect: moonwalkerz/gestio/comuni
+    redirectClose: moonwalkerz/gestio/comuni

@@ -1,0 +1,53 @@
+columns:
+    name:
+        label: moonwalkerz.gestio::lang.plugin.customer.name
+        type: text
+        searchable: true
+        sortable: true
+    pec:
+        label: moonwalkerz.gestio::lang.plugin.customer.pec
+        type: text
+        searchable: true
+        sortable: true
+    vat:
+        label: moonwalkerz.gestio::lang.plugin.customer.vat
+        type: text
+        searchable: true
+        sortable: true
+    cf:
+        label: moonwalkerz.gestio::lang.plugin.customer.taxcode
+        type: text
+        searchable: true
+        sortable: true
+    zip:
+        label: moonwalkerz.gestio::lang.plugin.customer.zip
+        type: text
+        searchable: true
+        sortable: true
+    city:
+        label: moonwalkerz.gestio::lang.plugin.customer.city
+        type: text
+        searchable: true
+        sortable: true
+    state:
+        label: moonwalkerz.gestio::lang.plugin.customer.state
+        type: text
+        searchable: true
+        sortable: true
+    region:
+        label: moonwalkerz.gestio::lang.plugin.customer.region
+        type: text
+        searchable: true
+        sortable: true
+    address:
+        label: moonwalkerz.gestio::lang.plugin.customer.address
+        type: text
+        searchable: true
+        sortable: true
+    id:
+        label: id
+        type: text
+    emails:
+        label: moonwalkerz.gestio::lang.plugin.customer.email
+        type: partial
+        path: ~/plugins/moonwalkerz/gestio/models/customer/_emails.htm

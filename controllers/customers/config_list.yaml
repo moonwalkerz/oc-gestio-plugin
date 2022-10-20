@@ -1,0 +1,14 @@
+list: $/moonwalkerz/gestio/models/customer/columns.yaml
+modelClass: MoonWalkerz\Gestio\Models\Customer
+title: Gestio
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'moonwalkerz/gestio/customers/update/:id'
+
+filter: config_filter.yaml

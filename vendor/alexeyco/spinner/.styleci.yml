@@ -1,0 +1,18 @@
+preset: symfony
+
+enabled:
+  - align_double_arrow
+  - align_equals
+  - ordered_imports
+  - short_array_syntax
+
+disabled:
+  - extra_empty_lines
+  - phpdoc_scalar
+  - unalign_double_arrow
+  - unalign_equals
+
+finder:
+  not-path: ["Tests/"]
+  not-name: ["constants.php"]
+  name: ["*.php"]

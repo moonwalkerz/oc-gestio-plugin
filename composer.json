@@ -1,0 +1,16 @@
+{
+    "name": "moonwalkerz/gestio",
+    "type": "october-plugin",
+    "description": "Gestio",
+    "require": {
+        "composer/installers": "~1.0",
+        "phpoffice/phpspreadsheet": "^1.9",
+        "alexeyco/spinner": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "MoonWalkerz",
+            "email": "webmaster@moonwalkerz.dev"
+        }
+    ]
+}

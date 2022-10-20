@@ -1,0 +1,14 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table moonwalkerz_gestio_customers'
+    - builder_table_create_moonwalkerz_gestio_customers.php
+1.0.3:
+    - 'Created table moonwalkerz_gestio_services'
+    - builder_table_create_moonwalkerz_categories.php
+1.0.4:
+    - 'Created table moonwalkerz_gestio_atecos'
+    - builder_table_create_moonwalkerz_customers_categories.php
+1.0.5:
+    - 'Created table moonwalkerz_gestio_comuni'
+    - builder_table_create_moonwalkerz_gestio_comuni.php

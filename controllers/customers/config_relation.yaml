@@ -1,0 +1,11 @@
+people:
+
+  label: Dipendenti
+
+  view:
+    list: $/moonwalkerz/gestio/models/person/columns_customer_form.yaml
+    toolbarButtons: create|delete
+  manage:
+    form: $/moonwalkerz/gestio/models/person/fields.yaml
+    recordsPerPage: 10
+    

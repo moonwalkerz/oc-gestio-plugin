@@ -1,0 +1,10 @@
+name: Categories
+form: $/moonwalkerz/gestio/models/category/fields.yaml
+modelClass: MoonWalkerz\Gestio\Models\Category
+defaultRedirect: moonwalkerz/gestio/categories
+create:
+    redirect: 'moonwalkerz/gestio/categories/update/:id'
+    redirectClose: moonwalkerz/gestio/categories
+update:
+    redirect: moonwalkerz/gestio/categories
+    redirectClose: moonwalkerz/gestio/categories

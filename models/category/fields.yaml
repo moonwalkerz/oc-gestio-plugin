@@ -1,0 +1,17 @@
+fields:
+    name:
+        label: Nome
+        span: auto
+        type: text
+    slug:
+        label: 'Url Alias'
+        span: auto
+        preset:
+            field: name
+            type: slug
+        type: text
+    description:
+        label: Descrizione
+        size: large
+        span: full
+        type: richeditor

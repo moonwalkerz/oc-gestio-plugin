@@ -1,0 +1,24 @@
+plugin:
+    name: 'moonwalkerz.gestio::lang.plugin.name'
+    description: 'moonwalkerz.gestio::lang.plugin.description'
+    author: 'MoonWalkerz'
+    icon: oc-icon-users
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Gestio
+        url: moonwalkerz/gestio/customers
+        icon: icon-user-o
+        sideMenu:
+            side-menu-item:
+                label: moonwalkerz.gestio::lang.plugin.customer.customers
+                url: moonwalkerz/gestio/customers
+                icon: icon-user
+            side-menu-item2:
+                label: moonwalkerz.gestio::lang.plugin.customer.categories
+                url: moonwalkerz/gestio/categories
+                icon: icon-sitemap
+permissions:
+    moonwalkerz.gestio:
+        tab: 'moonwalkerz.gestio::lang.plugin.name'
+        label: 'moonwalkerz.gestio::lang.plugin.permission.label'

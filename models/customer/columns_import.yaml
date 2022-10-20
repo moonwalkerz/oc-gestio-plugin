@@ -1,0 +1,37 @@
+columns:
+    name:
+        label: moonwalkerz.gestio::lang.plugin.customer.name
+        type: text
+    pec:
+        label: moonwalkerz.gestio::lang.plugin.customer.pec
+        type: text
+    sdi:
+        label: moonwalkerz.gestio::lang.plugin.customer.sdi
+        type: text
+    vat:
+        label: moonwalkerz.gestio::lang.plugin.customer.vat
+        type: text
+    cf:
+        label: moonwalkerz.gestio::lang.plugin.customer.taxcode
+        type: text
+    zip:
+        label: moonwalkerz.gestio::lang.plugin.customer.zip
+        type: text
+    city:
+        label: moonwalkerz.gestio::lang.plugin.customer.city
+        type: text
+    state:
+        label: moonwalkerz.gestio::lang.plugin.customer.state
+        type: text
+    region:
+        label: moonwalkerz.gestio::lang.plugin.customer.region
+        type: text  
+    address:
+        label: moonwalkerz.gestio::lang.plugin.customer.address
+        type: text
+    email:
+        label: moonwalkerz.gestio::lang.plugin.customer.email
+        type: text
+    phone:
+        label: moonwalkerz.gestio::lang.plugin.customer.phone
+        type: text

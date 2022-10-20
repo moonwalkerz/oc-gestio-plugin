@@ -1,0 +1,15 @@
+# ===================================
+#  Import/Export Behavior Config
+# ===================================
+
+import:
+    title: moonwalkerz.gestio::lang.plugin.customer.import
+    modelClass: MoonWalkerz\Gestio\Models\CustomerImport
+    list: $/moonwalkerz/gestio/models/customer/columns_import.yaml
+    redirect: moonwalkerz/gestio/customers
+
+export:
+    title: moonwalkerz.gestio::lang.plugin.customer.export
+    modelClass: MoonWalkerz\Gestio\Models\CustomerExport
+    list: $/moonwalkerz/gestio/models/customer/columns_import.yaml
+    redirect: moonwalkerz/gestio/customers

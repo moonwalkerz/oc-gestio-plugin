@@ -1,0 +1,10 @@
+fields:
+    name:
+        label: Nome
+        span: auto
+        type: text
+    cod_cat:
+        label: 'Codice Catastale'
+        span: auto
+        disabled: 1
+        type: text

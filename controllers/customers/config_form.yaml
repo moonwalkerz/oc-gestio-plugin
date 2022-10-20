@@ -1,0 +1,10 @@
+name: Gestio
+form: $/moonwalkerz/gestio/models/customer/fields.yaml
+modelClass: MoonWalkerz\Gestio\Models\Customer
+defaultRedirect: moonwalkerz/gestio/customers
+create:
+    redirect: 'moonwalkerz/gestio/customers/update/:id'
+    redirectClose: moonwalkerz/gestio/customers
+update:
+    redirect: moonwalkerz/gestio/customers
+    redirectClose: moonwalkerz/gestio/customers

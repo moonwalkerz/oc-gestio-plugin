@@ -1,0 +1,13 @@
+list: $/moonwalkerz/gestio/models/category/columns.yaml
+modelClass: MoonWalkerz\Gestio\Models\Category
+title: Categories
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+showTree: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'moonwalkerz/gestio/categories/update/:id'

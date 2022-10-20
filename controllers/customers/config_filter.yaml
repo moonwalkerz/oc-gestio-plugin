@@ -1,0 +1,16 @@
+# ===================================
+# Filter Scope Definitions
+# ===================================
+
+scopes:
+
+    state:
+        label: moonwalkerz.gestio::lang.plugin.customer.state
+        modelClass: MoonWalkerz\Gestio\Models\Customer
+        conditions: state in (:filtered) 
+        options: getStates
+    city:
+        label: moonwalkerz.gestio::lang.plugin.customer.city
+        modelClass: MoonWalkerz\Gestio\Models\Customer
+        conditions: city in (:filtered) 
+        options: getCities

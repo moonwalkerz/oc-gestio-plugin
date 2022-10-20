@@ -1,0 +1,5 @@
+title: moonwalkerz.gestio::lang.plugin.customer.customers
+nameFrom: name
+modelClass: MoonWalkerz\Gestio\Models\Customer
+toolbar:
+    buttons: reorder_toolbar

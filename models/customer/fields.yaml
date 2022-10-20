@@ -1,0 +1,85 @@
+fields:
+    name:
+        label: 'moonwalkerz.gestio::lang.plugin.customer.name'
+        span: left
+        type: text
+    market_name:
+        label: 'moonwalkerz.gestio::lang.plugin.customer.localname'
+        span: auto
+        type: text
+        comment: 'moonwalkerz.gestio::lang.plugin.customer.localnamecomment'
+    address:
+        label: moonwalkerz.gestio::lang.plugin.customer.address
+        span: auto
+        type: text
+    city:
+        label: moonwalkerz.gestio::lang.plugin.customer.city
+        span: auto
+        type: text
+    state:
+        label: moonwalkerz.gestio::lang.plugin.customer.state
+        span: auto
+        type: text
+    zip:
+        label: moonwalkerz.gestio::lang.plugin.customer.zip
+        span: auto
+        type: text
+    vat:
+        label: moonwalkerz.gestio::lang.plugin.customer.vat
+        span: auto
+        type: text
+    cf:
+        label: CF
+        span: auto
+        type: text
+        comment: 'moonwalkerz.gestio::lang.plugin.customer.taxcode'
+    sdi:
+        label: 'moonwalkerz.gestio::lang.plugin.customer.sdi'
+        span: auto
+        type: text
+        comment: 'moonwalkerz.gestio::lang.plugin.customer.italyinvoicecode'
+    pec:
+        label: moonwalkerz.gestio::lang.plugin.customer.pec
+        span: auto
+        type: text
+    region:
+        label: moonwalkerz.gestio::lang.plugin.customer.region
+        span: full
+        type: text
+    categories:
+        label: moonwalkerz.gestio::lang.plugin.customer.categories
+        nameFrom: name
+        descriptionFrom: description
+        span: left
+        type: relation
+    note:
+        label: moonwalkerz.gestio::lang.plugin.customer.note
+        size: large
+        span: full
+        type: richeditor
+    phones:
+        label: moonwalkerz.gestio::lang.plugin.customer.phones
+        prompt: 'moonwalkerz.gestio::lang.plugin.customer.addphone'
+        span: auto
+        type: repeater
+        form:
+            fields:
+                number:
+                    label: moonwalkerz.gestio::lang.plugin.customer.number
+                    span: auto
+                    type: text
+                rif:
+                    label: moonwalkerz.gestio::lang.plugin.customer.reference
+                    span: auto
+                    type: text
+    emails:
+        label: moonwalkerz.gestio::lang.plugin.customer.emails
+        prompt: 'moonwalkerz.gestio::lang.plugin.customer.addemail'
+        span: auto
+        type: repeater
+        form:
+            fields:
+                email:
+                    label: 'moonwalkerz.gestio::lang.plugin.customer.addemail'
+                    span: auto
+                    type: text

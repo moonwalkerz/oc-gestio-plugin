@@ -1,0 +1,5 @@
+title: Categories
+nameFrom: name
+modelClass: MoonWalkerz\Gestio\Models\Category
+toolbar:
+    buttons: reorder_toolbar

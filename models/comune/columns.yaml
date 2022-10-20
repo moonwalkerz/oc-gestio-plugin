@@ -1,0 +1,44 @@
+columns:
+    id:
+        label: id
+        type: number
+        sortable: true
+    cod_reg:
+        label: cod_reg
+        type: text
+        searchable: true
+        sortable: true
+    cod_ut:
+        label: cod_ut
+        type: text
+        searchable: true
+        sortable: true
+    name:
+        label: name
+        type: text
+        searchable: true
+        sortable: true
+    state:
+        label: state
+        type: text
+        sortable: true
+    prov:
+        label: prov
+        type: text
+        sortable: true
+    cod_state:
+        label: cod_state
+        type: text
+        searchable: true
+        sortable: true
+    cod_cat:
+        label: cod_cat
+        type: text
+        searchable: true
+        sortable: true
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime
