@@ -1,7 +1,8 @@
 {
-    "name": "moonwalkerz/gestio",
+    "name": "moonwalkerz/gestio-plugin",
     "type": "october-plugin",
     "description": "Gestio",
+    "homepage": "https://github.com/moonwalkerz/gestio-plugin",
     "require": {
         "composer/installers": "~1.0",
         "phpoffice/phpspreadsheet": "^1.9",
