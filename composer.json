@@ -1,17 +1,35 @@
 {
-    "name": "moonwalkerz/gestio-plugin",
+    "name": "moonwalkerz/oc-gestio-plugin",
     "type": "october-plugin",
-    "description": "Gestio",
-    "homepage": "https://github.com/moonwalkerz/gestio-plugin",
+    "description": "Customers manager plugin for October CMS.",
+    "homepage": "https://github.com/moonwalkerz/oc-gestio-plugin",
     "require": {
         "composer/installers": "~1.0",
         "phpoffice/phpspreadsheet": "^1.9",
         "alexeyco/spinner": "^1.0"
     },
+    "keywords": [
+        "october",
+        "cms",
+      "customers",
+      "manager",
+      "plugin"
+      ],
+      "license": "MIT",
     "authors": [
         {
-            "name": "MoonWalkerz",
+            "name": "Alain Martini",
+            "email": "alain@moonwalkerz.dev"
+        },
+        {
+            "name": "Nicolò Verginella",
             "email": "webmaster@moonwalkerz.dev"
         }
-    ]
+    ],
+    "config": {
+        "allow-plugins": {
+          "composer/installers": true
+        }
+      }
+    
 }
