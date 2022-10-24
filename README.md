@@ -31,6 +31,7 @@ Next:
 
 ```
 php artisan october:migrate
+```
 
 ## ⚙️ Documentation ⚙️
 
