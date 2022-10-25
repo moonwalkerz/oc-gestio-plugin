@@ -4,7 +4,6 @@ use Illuminate\Console\Command;
 use PhpOffice\PhpSpreadsheet\Reader\Xls;
 
 use MoonWalkerz\Gestio\Models\Comune;
-use Spinner\Spinner;
 
 use Carbon\Carbon;
 
@@ -26,15 +25,12 @@ class Comuni extends Command
      */
     public function handle()
     {
-        $this->output->writeln('ImportazioneComuni...');
-        $spinner = new Spinner(\Spinner\DOTS);
-        $spinner->tick('Loading file... ');
+        $this->output->writeln('Importazione Comuni...');
         $inputFileName = plugins_path().'/moonwalkerz/gestio/console/imports/elenco-comuni-italiani.xls';
         
         
 
         Comune::truncate();
-        $spinner->tick('Database Cleared');
 /** Create a new Xls Reader  **/
         $reader = new Xls();
         $spreadsheet = $reader->load($inputFileName);
@@ -42,13 +38,16 @@ class Comuni extends Command
         $worksheet = $spreadsheet->getActiveSheet();
         
         $highestRow = $worksheet->getHighestRow(); // e.g. 10
-        $highestColumn = $worksheet->getHighestColumn(); // e.g 'F'
+	$highestColumn = $worksheet->getHighestColumn(); // e.g 'F'
+
+
+	 $bar=$this->output->createProgressBar($highestRow);
         //$highestColumnIndex = Coordinate::columnIndexFromString($highestColumn); 
 //        $main_id=1000000;
   //      $parent_id=null;
         for ($row = 2; $row <= $highestRow; ++$row) {
          
-            $spinner->tick('Loading...      ');
+            $bar->advance();
 
             $c =  Comune::firstOrNew(['cod_cat'=>$worksheet->getCellByColumnAndRow(19, $row)->getValue()]);
 
