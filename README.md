@@ -4,7 +4,7 @@
 
 MoonWalkerz present "Gestio"! A simple customers manager plugin for October CMS. This plugin allows you to manage all the contacts of your customers! You You will always have your address book with you and you will never lose any contacts. What more do you want?
 
-## 🔥 We Are Aorking On 🔥
+## 🔥 We Are Working On 🔥
 
 - Add import/export csv function
 
