@@ -12,3 +12,5 @@
 1.0.5:
     - 'Created table moonwalkerz_gestio_comuni'
     - builder_table_create_moonwalkerz_gestio_comuni.php
+1.0.6:
+    - 'First Release'
